@@ -6,7 +6,6 @@ function decodeText() {
                               .replace(/ober/g, 'o')
                               .replace(/ufat/g, 'u');
   document.getElementById('decodedText').innerText = decodedText;
-  document.getElementById('icon').src = 'icon_decode.png';
 }
 
 function encodeText() {
@@ -17,5 +16,4 @@ function encodeText() {
                               .replace(/o/g, 'ober')
                               .replace(/u/g, 'ufat');
   document.getElementById('decodedText').innerText = encodedText;
-  document.getElementById('icon').src = 'icon_encode.png';
 }
