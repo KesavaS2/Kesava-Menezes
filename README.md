@@ -1,4 +1,3 @@
-Claro! Aqui está o conteúdo para o arquivo README.md:
 
 ```
 # Decodificador de Texto - ONE
